@@ -1,0 +1,458 @@
+.nav-bar{
+    position: fixed;
+    z-index: 500;
+    background-color: rgba(0, 0, 0, 0.9);
+}
+
+#home{
+    height: 100vh;
+    background-image: url(../images/hero-bg.jpg);
+    background-size: 100% 100%;
+    background-attachment: fixed;
+}
+
+#home .layer{
+    background-color: rgba(0, 0, 0, 0.5);
+    height: 100vh;
+    position: relative;
+}
+
+#home .layer .div{
+    position: absolute;
+    text-align: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+#home .layer h1{
+    font-size: 72px;
+    color: white;
+}
+
+#home .layer p{
+    font-size: 40px;
+    color: white;
+    text-align: center;
+}
+
+#home .layer p::after{
+    content: "|";
+    animation-name: typing;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+}
+
+@keyframes typing{
+    0%{
+        content: "D|";
+    }
+    1.4%{
+        content: "De|";
+    }
+    2.8%{
+        content: "Des|";
+    }
+    4.2%{
+        content: "Desi|";
+    }
+    5.6%{
+        content: "Desig|";
+    }
+    7%{
+        content: "Design|";
+    }
+    8.4%{
+        content: "Designe|";
+    }
+    9.8%{
+        content: "Designer|";
+    }
+    11.2%{
+        content: "Designe|";
+    }
+    12.6%{
+        content: "Design|";
+    }
+    14%{
+        content: "Desig|";
+    }
+    15.4%{
+        content: "Desi|";
+    }
+    16.8%{
+        content: "Des|";
+    }
+    18.2%{
+        content: "De|";
+    }
+    19.6%{
+        content: "Dev|";
+    }
+    21%{
+        content: "Deve|";
+    }
+    22.4%{
+        content: "Devel|";
+    }
+    23.8%{
+        content: "Develo|";
+    }
+    25.2%{
+        content: "Develop|";
+    }
+    26.6%{
+        content: "Develope|";
+    }
+    28%{
+        content: "Developer|";
+    }
+    29.4%{
+        content: "Develope|";
+    }
+    30.8%{
+        content: "Develop|";
+    }
+    32.2%{
+        content: "Develo|";
+    }
+    33.6%{
+        content: "Deve|";
+    }
+    35%{
+        content: "Deve|";
+    }
+    36.4%{
+        content: "Dev|";
+    }
+    37.8%{
+        content: "De|";
+    }
+    39.2%{
+        content: "D|";
+    }
+    40.6%{
+        content: "|";
+    }
+    42%{
+        content: "F|";
+    }
+    43.4%{
+        content: "Fr|";
+    }
+    44.8%{
+        content: "Fre|";
+    }
+    46.2%{
+        content: "Free|";
+    }
+    47.6%{
+        content: "Freel|";
+    }
+    49%{
+        content: "Freela|";
+    }
+    50.4%{
+        content: "Freelan|";
+    }
+    51.8%{
+        content: "Freelanc|";
+    }
+    53.2%{
+        content: "Freelance|";
+    }
+    54.6%{
+        content: "Freelancer|";
+    }
+    56%{
+        content: "Freelance|";
+    }
+    57.4%{
+        content: "Freelanc|";
+    }
+    58.8%{
+        content: "Freelan|";
+    }
+    60.2%{
+        content: "Freela|";
+    }
+    61.6%{
+        content: "Freel|";
+    }
+    63%{
+        content: "Free|";
+    }
+    64.4%{
+        content: "Fre|";
+    }
+    65.8%{
+        content: "Fr|";
+    }
+    67.2%{
+        content: "F|";
+    }
+    68.6%{
+        content: "|";
+    }
+    70%{
+        content: "P|";
+    }
+    71.4%{
+        content: "Ph|";
+    }
+    72.8%{
+        content: "Pho|";
+    }
+    74.2%{
+        content: "Phot|";
+    }
+    75.6%{
+        content: "Photo|";
+    }
+    77%{
+        content: "Photog|";
+    }
+    78.4%{
+        content: "Photogr|";
+    }
+    79.8%{
+        content: "Photogra|";
+    }
+    81.2%{
+        content: "Photograp|";
+    }
+    82.6%{
+        content: "Photograph|";
+    }
+    84%{
+        content: "Photographe|";
+    }
+    85.4%{
+        content: "Photographer|";
+    }
+    86.8%{
+        content: "Photographe|";
+    }
+    88.2%{
+        content: "Photograph|";
+    }
+    89.6%{
+        content: "Photograp|";
+    }
+    91%{
+        content: "Photogra|";
+    }
+    92.4%{
+        content: "Photogr|";
+    }
+    93.8%{
+        content: "Photog|";
+    }
+    95.2%{
+        content: "Photo|";
+    }
+    96.6%{
+        content: "Phot|";
+    }
+    98%{
+        content: "Pho|";
+    }
+    99.4%{
+        content: "Ph|";
+    }
+    99.8%{
+        content: "P|";
+    }
+    100%{
+        content: "|";
+    }
+    
+}
+
+#about h5{
+    position: relative;
+}
+
+#contact h5{
+    position: relative;
+}
+
+#contact h5:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+#about h5:before {
+    content: "";
+    position: absolute;
+    height: 3px;
+    background-color: #0078ff;
+    width: 100px;
+    bottom: -12px;
+}
+
+.line-mf {
+    width: 40px;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 0 auto;
+}
+
+
+#services .bor{
+    border: #0078FF solid 10px;
+    border-radius: 50%;
+}
+
+#services .hov{
+    transition: all .5s;
+}
+
+#services .hove:hover .hov{
+    background-color: #0078FF;
+    border-color: #CDE1F8;
+}
+
+#contact .boo{
+    background-color: #0078FF;
+    border: none;
+    transition: all .5s;
+}
+
+#contact .boo:hover{
+    background-color:#3393FF ;
+    border: #CDE1F8 solid 5px ;
+}
+
+.num{
+    background-image: url(../images/post-3.jpg);
+    background-size: cover ;
+    background-attachment: fixed;
+}
+
+#contact{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+.overlay{
+    background-color: rgba(0, 113, 208, .8);
+    padding: 70px 0;
+}
+
+.bord{
+    border: #CDE1F8 solid 10px;
+    border-radius: 50%;
+}
+
+.flo{
+    float: right;
+}
+
+#work .zoom{
+    overflow: hidden;
+}
+
+#work .pic{
+    transition: all 1s;
+}
+
+#work .zom:hover .pic{
+    transform: scale(1.3);
+}
+
+.slider{
+    background-image: url(../images/overlay-bg.jpg);
+    background-size: cover;
+    background-attachment: fixed;
+}
+
+#blog .pic{
+    width: 30px;
+    margin-right: 5px;
+}
+
+#blog .one{
+    position: relative;
+}
+
+#blog .two{
+    position: relative;
+}
+
+#blog .one::after{
+    content: "TRAVEL";
+    color: white;
+    font-size: 11.2px;
+    font-weight: 500;
+    padding: 5px;
+    position: absolute;
+    left: 50%;
+    top: -15;
+    transform: translate(-50%,0);
+    background-color: #0078FF;
+    width: 20%;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 5px;
+}
+
+#blog .two::after{
+    content: "WEB DESIGN";
+    color: white;
+    font-size: 11.2px;
+    font-weight: 500;
+    padding: 5px;
+    position: absolute;
+    left: 50%;
+    top: -15;
+    transform: translate(-50%,0);
+    background-color: #0078FF;
+    width: 30%;
+    text-align: center;
+    border-radius: 5px;
+    z-index: 5px;
+}
+
+#blog h5{
+    transition: color 1s;
+}
+
+#blog h5:hover{
+    color: #0078FF;
+}
+
+#blog .col{
+    transition: color 1s;
+}
+
+#blog .col:hover{
+    color: #0078FF;
+}
+
+ul{
+    list-style: none;
+}
+
+#contact .social .soc{
+    padding: 8px;
+    border: #0078FF solid 5px;
+    border-radius: 50%;
+    transition: all .5s;
+}
+
+#contact .social .soc:hover{
+    color: white;
+    background-color: #0078FF;
+    border-color: #CDE1F8 ;
+}
+
+.colorr{
+    background-color: rgba(0, 113, 208, 1);
+}
+
